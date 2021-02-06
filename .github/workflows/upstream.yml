@@ -73,7 +73,7 @@ jobs:
         git clone --depth 1 https://github.com/zzsj0928/luci-app-serverchand
         git clone --depth 1 https://github.com/CCnut/feed-netkeeper && mv -n feed-netkeeper/* ./ ; rm -Rf Rffeed-netkeeper
 
-        git clone --depth 1 https://github.com/doushang/luci-app-shortcutmenu && mv -f luci-app-shortcutmenu/luci-app-shortcutmenu ./ ; rm -Rf luci-app-shortcutmenu
+        svn co https://github.com/doushang/luci-app-shortcutmenu/trunk/luci-app-shortcutmenu
         svn co https://github.com/sundaqiang/openwrt-packages/trunk/luci-app-services-wolplus
         
         svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
